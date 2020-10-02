@@ -4,11 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sorting Visualiser</title>
+     <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Sorting Visualiser</h1>
-
+    <header class="header">
+        <button type="button" class="btn btn-elegant new" onclick="GenNewArray()">Generate New Array</button>
+        <div class="slide1">
+            <label for="customRange1">Example range</label>
+            <input type="range" class="custom-range" id="customRange1">
+        </div>
+        <div class="sorts-type">    
+            <button type="button" class="btn btn-elegant" onclick="MergeSort()">Merge Sort</button>
+            <button type="button" class="btn btn-elegant" onclick="QuickSort()">Quick Sort</button>
+            <button type="button" class="btn btn-elegant" onclick="HeapSort()">Heap Sort</button>
+            <button type="button" class="btn btn-elegant" onclick="BubbleSort()">Bubble sort</button>
+        </div>
+    </header>
     <script src="main.js"></script>
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
 </body>
 </html>
