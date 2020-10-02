@@ -14,7 +14,9 @@ function BubbleSort(){
     console.log("bubblesort");
     return null;
 }
-function GenNewArray(){
-    console.log("new array generated");
-    return null;
+function GenNewArray(length){
+    max=100000000;
+    return randomArray = (length, max) => [...new Array(length)]
+    .map(() => Math.round(Math.random() * max));
+    
 }
