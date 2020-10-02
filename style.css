@@ -1,0 +1,26 @@
+#customRange1{
+    width: 20%;
+}
+.sorts-type{
+    display: inline;
+    float: right;
+    align-items: center;
+}
+.header{
+    background-color: #e0e0e0;
+}
+.btn{
+    margin-top:1.5em;
+    margin-bottom:1.5em; 
+}
+.slide1{
+    display: inline;
+    margin-left: 4em;
+    padding: 1em;
+    background-color:#2e2e2e;
+}
+.slide1>label{
+    font-size: larger;
+    padding-right: 3em;
+    color: #fff;
+}
